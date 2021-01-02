@@ -2,14 +2,14 @@
 position: fixed;
 top: 0px;
 left: 0px;
-padding: 10px;
+padding: 0px;
 margin: 0px;
 width: 100%;
 background-color: #71B8FF;
 background-position : top left;
 background-repeat: no-repeat;
 font-family : Georgia, serif;
-font-size : 1em;
+font-size : 14px;
 margin-bottom : 0px;
 margin-top : 0px;
 padding-bottom : 0px;
@@ -17,8 +17,8 @@ padding-left : 3%;
 padding-top : 0.5em;}
 
 #toplogo img {
-  width: 18%;
-  height: 9%;
+  width: 24%;
+  height: 12%;
 }
 
 .anchor {
@@ -58,25 +58,25 @@ a:active {
 
 #content h1 {
   font-family: Kortika, Tahoma, Calibri;
-  font-size: 48px;
+  font-size: 32px;
   margin-top:20%;
-  margin-right: 25%;
-  margin-left: 25%;
+  margin-right: 15%;
+  margin-left: 15%;
   text-align: center;
 }
 
 #content p {
   font-family: "Berlin Sans FB", Tahoma, Calibri;
-  font-size: 18px;
+  font-size: 16px;
   text-align: justify;
-  margin-right: 15%;
-  margin-left: 15%;
-  margin-bottom: 150px;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 100px;
 }
 
 dt {
   font-weight:bold;
-  font-size:26px;
+  font-size:22px;
   margin-left: 15%;
   font-family: "Berlin Sans FB", Tahoma, Calibri;
   text-align: justify;
@@ -89,42 +89,43 @@ dd {
   font-size: 14px;
   margin-right: 10%;
   margin-bottom: 50px;
-  padding-bottom: 120px;
+  padding-bottom: 50px;
   text-align: justify;
 }
 
 #pasta dd {
-  background-image: url('../Images/pastathumbnail.png');
+  background-image: url('../Images/pastathumbnailmobile.png');
   background-position: center left;
   background-repeat: no-repeat;
 }
 
 
 #shish dd {
-  background-image: url('../Images/shishthumbnail.png');
+  background-image: url('../Images/shishthumbnailmobile.png');
   background-position: center left;
   background-repeat: no-repeat;
 }
 
 #garlicbread dd {
-  background-image: url('../Images/garlicbreadthumbnail.png');
+  background-image: url('../Images/garlicbreadthumbnailmobile.png');
   background-position: center left;
   background-repeat: no-repeat;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 #siteinfo {
   background-color:#E1E8EE;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('../Images/logo2.png');
+  background-image: url('../Images/logo3.png');
   top: 0px;
   left: 0px;
+  bottom: 0px;
   padding-bottom: 100px;
-  margin: 0px;
+  margin-top: 0px;
   width: 100%;
   border-style:solid;
-  font-size: 14px;
+  font-size: 8px;
 }
 
 #top {
@@ -133,7 +134,11 @@ dd {
 
 #top img {
   float:right;
+  width:10%;
+  height:10%;
 }
+
+/* Large device CSS */
 
 @media only screen and (min-width: 768px) {
 
@@ -151,7 +156,12 @@ dd {
   }
 
   #content h1 {
-    margin-top: 10%;
+    font-family: Kortika, Tahoma, Calibri;
+    font-size: 48px;
+    margin-top:10%;
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
   }
 
   #content p {
@@ -180,6 +190,30 @@ dd {
     margin-bottom: 50px;
     padding-bottom: 120px;
     text-align: justify;
+  }
+
+  #top img {
+    width:auto;
+    height:auto;
+  }
+
+  #siteinfo {
+    background-image: url('../Images/logo2.png');
+    font-size: 14px;
+  }
+
+  #pasta dd {
+    background-image: url('../Images/pastathumbnail.png');
+  }
+
+
+  #shish dd {
+    background-image: url('../Images/shishthumbnail.png');
+  }
+
+  #garlicbread dd {
+    background-image: url('../Images/garlicbreadthumbnail.png');
+    padding-bottom: 100px;
   }
 
 }
