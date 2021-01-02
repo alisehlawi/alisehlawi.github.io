@@ -77,19 +77,17 @@ a:active {
 dt {
   font-weight:bold;
   font-size:22px;
-  margin-left: 15%;
+  margin-left: 5%;
   font-family: "Berlin Sans FB", Tahoma, Calibri;
   text-align: justify;
 }
 
 dd {
-  margin-left: 15%;
+  margin-left: 5%;
   padding-left: 300px;
   font-family: Kortika, Tahoma, Calibri;
   font-size: 14px;
   margin-right: 10%;
-  margin-bottom: 50px;
-  padding-bottom: 50px;
   text-align: justify;
 }
 
