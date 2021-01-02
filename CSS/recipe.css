@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('../Images/gradientbg2.png');
+  background-size: 100%, 100%;
+}
+
+#links {
+  margin-left:30%;
+}
+
+.anchor {
+  position: relative;
+  left: 0px;
+  top: -70px;
+}
+
+a:link {
+  color: darkcyan;
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkcyan;
+  text-decoration:none;
+}
+
+a:hover {
+  color: darkblue;
+  text-decoration:none;
+}
+
+a:active {
+  color: darkcyan;
+  text-decoration:none;
+}
+
+#toplogo h2 {
+position: fixed;
+top: 0px;
+left: 0px;
+padding: 10px;
+margin: 0px;
+width: 100%;
+background-color: #71B8FF;
+background-position : top left;
+background-repeat: no-repeat;
+font-family : Georgia, serif;
+font-size : 2em;
+margin-bottom : 0px;
+margin-top : 0px;
+padding-bottom : 0px;
+padding-left : 3%;
+padding-top : 0.5em;}
+
+#toplogo img {
+  width: 12%;
+  height: 6%;
+}
+
+#content h1 {
+  font-family: Kortika, Tahoma, Calibri;
+  font-size: 48px;
+  margin-top:5%;
+  margin-right: 25%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+#content img {
+   width:60%;
+   height:45%;
+   border: 10px solid darkblue;
+}
+
+h2 {
+  font-family: "Berlin Sans FB", Tahoma, Calibri;
+  font-size: 36px;
+  text-align: justify;
+  margin-left: 5%;
+  color: #2F5BAF;
+}
+
+#list_start, #list_start2, #list_start3 {
+    margin-left: 5%;
+}
+
+#part1 img{
+  width:20%;
+  height:22%;
+  border: 5px solid #2F5BAF;
+  float: right;
+}
+
+#part2 img {
+  width:15%;
+  height:16%;
+  border: 5px solid #2F5BAF;
+  float: right;
+}
+
+ul, ol, li {
+  font-family: Kortika, Tahoma, Calibri;
+  font-size: 20px;
+  text-align: justify;
+}
+
+li {
+  margin-right: 20%;
+}
+
+#siteinfo {
+  position:bottom;
+  background-color:#E1E8EE;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../Images/logo2.png');
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  padding-bottom: 100px;
+  margin-top: 0px;
+  width: 100%;
+  border-style:solid;
+}
+
+#top {
+  margin-right:5%;
+}
+
+#top img {
+  float:right;
+}
