@@ -28,7 +28,7 @@ padding-top : 0.5em;}
 }
 
 #links {
-  margin-left:30%;
+  margin-left:10%;
 }
 
 body{
@@ -224,6 +224,10 @@ dd {
 
   #garlicbread dd {
     padding-bottom: 10%;
+  }
+
+  #links {
+    margin-left:30%;
   }
 
 }
