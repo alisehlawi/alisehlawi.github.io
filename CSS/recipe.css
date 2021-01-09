@@ -1,16 +1,10 @@
-* {
-  box-sizing: border-box;
-}
-
+/* Background gradient */
 body{
   background-image: url('../Images/gradientbg2.png');
   background-size: 100%, 100%;
 }
 
-#links {
-  margin-left:10%;
-}
-
+/* anchors */
 .anchor {
   position: relative;
   left: 0px;
@@ -37,7 +31,9 @@ a:active {
   text-decoration:none;
 }
 
-#toplogo h2 {
+/* CSS of header with logo at top of page */
+
+#toplogo nav {
 position: fixed;
 top: 0px;
 left: 0px;
@@ -60,9 +56,16 @@ padding-top : 0.5em;}
   height: 12%;
 }
 
+#link1 {
+  margin-left:10%;
+}
+
+#link2, #link3 {
+  margin-left:1%;
+}
+
+/* h1 contains main image of completed recipe */
 #content h1 {
-  font-family: Kortika, Tahoma, Calibri;
-  font-size: 48px;
   margin-top:20%;
   margin-right: 25%;
   margin-left: 25%;
@@ -75,6 +78,7 @@ padding-top : 0.5em;}
    border: 6px solid darkblue;
 }
 
+/* h2 headings used at the start of lists */
 h2 {
   font-family: "Berlin Sans FB", Tahoma, Calibri;
   font-size: 20px;
@@ -87,6 +91,7 @@ h2 {
     margin-left: 5%;
 }
 
+/* images used in lists */
 #part1 img{
   width:34%;
   height:36%;
@@ -101,6 +106,7 @@ h2 {
   float: right;
 }
 
+/* lists css */
 ul, ol, li {
   font-family: Kortika, Tahoma, Calibri;
   font-size: 14px;
@@ -111,6 +117,7 @@ li {
   margin-right: 20%;
 }
 
+/* footer css */
 #siteinfo {
   background-color:#E1E8EE;
   background-position: center;
@@ -140,7 +147,7 @@ li {
 
 @media only screen and (min-width: 768px) {
 
-  #toplogo h2 {
+  #toplogo nav {
   font-size : 2em;
   margin-bottom : 0px;
   margin-top : 0px;
@@ -196,7 +203,7 @@ li {
     font-size: 14px;
   }
 
-  #links {
+  #link1 {
     margin-left:30%;
   }
 
